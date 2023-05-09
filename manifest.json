@@ -1,0 +1,9 @@
+{"name": "get off ur phone", 
+"version": "0.1", 
+"manifest_version": 3, 
+"background": { "service_worker": "background.js"
+}, 
+"permissions": ["scripting", "activeTab"], 
+"action": { "default_popup": "popup.html" },
+ "content_scripts": [ {
+"matches": ["*://*/*"], "js": ["content-script.js"] } ] }
