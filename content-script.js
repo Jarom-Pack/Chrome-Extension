@@ -1,6 +1,6 @@
-alert('is this working?');
-let timeLimit=5; // 500 
-let phoneStrikes =5;
+alert('you have succesfully added this extension to chrome');
+let timeLimi t= 5*60;
+let phoneStrikes = 0;
 
 function resetTimer() {
     timeLimit=60;
